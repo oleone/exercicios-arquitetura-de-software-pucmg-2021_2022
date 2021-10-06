@@ -1,0 +1,14 @@
+<section>
+    <div class="container">
+        <div *ngIf="!post">
+            <h2>Últimas Postagens do Blog</h2>
+
+            <app-post-item-list *ngFor="let post of posts" [post]="post" (click)="selectPostItem($event)">
+            </app-post-item-list>
+        </div>
+
+        <div *ngIf="post">
+            <app-post [post]="post" (back)="clean()"></app-post>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,7 @@
+<app-header 
+    [title]="title" 
+    [imageUrl]="imageUrl" 
+    [class]="class"
+    [subtitle]="subtitle"></app-header>
+
+<app-content [posts]="posts" (postSelected)="postSelected($event)"></app-content>

@@ -1,0 +1,67 @@
+.bg-blue {
+    background-color: #423ba1;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-red {
+    background-color: #cf234e;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-yellow {
+    background-color: #f1d534;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-green {
+    background-color: #27a738;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-purple {
+    background-color: rgb(81, 5, 116);
+    color: rgb(192, 192, 192);
+    // text-shadow: 1px 1px 2px black;
+}
+
+header {
+    box-shadow: 0px 0px 16px 3px rgb(0 0 0 / 30%);;
+    .area-items {
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+
+        .area-description {
+            max-width: 500px;
+
+            p {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            .title-area-items {
+                font-size: 3rem;
+                text-align: left;
+            }
+        }
+    }
+
+    figure {
+        padding: 25px;
+
+        img.cicle {
+            border-radius: 50%;
+            width: 8rem;
+            height: 8rem;
+            border: 2px solid #fff;
+            box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
